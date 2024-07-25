@@ -1,0 +1,22 @@
+{
+  "name": "fuzion-scribble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ignition-whitelister": "ts-node src/ignition/whitelister.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.3",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
